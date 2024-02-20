@@ -10,9 +10,9 @@ const  App = () => {
     <>
        
        <h1> Portofolio upload to git</h1>
-       <p> world</p>
-
-    </>
+<p> world</p>
+<p>hello</p>
+            </>
   )
 }
 
