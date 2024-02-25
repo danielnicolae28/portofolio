@@ -4,7 +4,7 @@ const Work = () => {
     <>
     
     <div className="py-20">
-    <h1>Work</h1>
+    <h1>Projects</h1>
     </div>    
     
     </>

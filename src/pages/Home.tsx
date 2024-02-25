@@ -1,13 +1,16 @@
+import Footer from "../components/Footer"
+import Presentation from "../components/Presentation"
 
 
 const Home = () => {
   return (
     <> 
-    <div className="py-20">
+    <div className="pt-20  w-full h-full">
 
     
+<Presentation/>
+<Footer/>
 
- <h1>Home</h1>
  
  </div>
     </>

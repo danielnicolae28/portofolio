@@ -1,14 +1,15 @@
+import Footer from "../components/Footer"
 
 const Experience = () => {
   return (
-    <div>
+    <>
     
     
-    <div className="py-20">
-    <h1>Experience</h1>
+    <div className="py-20 w-full h-screen bg-slate-500">
+    
     </div>    
-    
-    </div>
+  <Footer/>
+    </>
   )
 }
 
