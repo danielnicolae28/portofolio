@@ -1,8 +1,17 @@
-import NavBar from '../components/NavBar'
 
 const Contact = () => {
   return (
-    <div><NavBar/></div>
+    <>
+      
+    
+  
+    <div className="py-20">
+    <h1>Contact</h1>
+
+   
+    </div>    
+    
+    </>
   )
 }
 

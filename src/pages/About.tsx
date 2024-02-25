@@ -1,7 +1,14 @@
-import NavBar from "../components/NavBar"
+
 const About = () => {
   return (
-    <div><NavBar/></div>
+
+    <>
+
+<div className="py-20">
+    <h1>About</h1>
+    
+</div>
+    </>
   )
 }
 

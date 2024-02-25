@@ -1,8 +1,14 @@
-import NavBar from '../components/NavBar'
 
 const Experience = () => {
   return (
-    <div><NavBar/></div>
+    <div>
+    
+    
+    <div className="py-20">
+    <h1>Experience</h1>
+    </div>    
+    
+    </div>
   )
 }
 

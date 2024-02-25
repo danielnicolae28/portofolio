@@ -7,7 +7,10 @@ type LinkComponentProps = {
 
 const LinkComponent = ({to,children}:LinkComponentProps) => {
   return (
-    <Link to={`${to}`} className="text-lg">{children}</Link>
+    <li>
+
+    <Link to={`${to}`} className="text-lg m-3">{children}</Link>
+    </li>
   )
 }
 

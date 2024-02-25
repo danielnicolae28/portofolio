@@ -1,7 +1,9 @@
 import LinkComponent from "./ui/LinkComponent"
+
+
 const NavBar = () => {
   return (
-    <ul className="w-full h-7.5 border-solid border-b border-sky-500 fixed flex column justify-center items-center ">
+    <ul className="w-full border-solid border-b border-gray-300 flex justify-center p-4 fixed bg-gray-50">
 
         <LinkComponent to="/">Home</LinkComponent>
         <LinkComponent to="about">About</LinkComponent>
@@ -13,4 +15,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;

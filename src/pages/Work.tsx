@@ -1,8 +1,13 @@
-import NavBar from '../components/NavBar'
 
 const Work = () => {
   return (
-    <div><NavBar/></div>
+    <>
+    
+    <div className="py-20">
+    <h1>Work</h1>
+    </div>    
+    
+    </>
   )
 }
 
