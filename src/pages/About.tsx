@@ -4,7 +4,7 @@ const About = () => {
 
     <>
 
-<div className="py-20">
+<div className="pt-20  w-full h-full">
     <h1>About</h1>
     
 </div>
