@@ -9,7 +9,7 @@ const LinkComponent = ({to,children}:LinkComponentProps) => {
   return (
     <li>
 
-    <Link to={`${to}`} className="text-lg m-3">{children}</Link>
+    <Link to={`${to}`} className="text-lg m-10 text-primary-1">{children}</Link>
     </li>
   )
 }

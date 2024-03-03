@@ -12,6 +12,12 @@ export default {
       "xl" : "1280px",
       "2xl" : "1536px"
     },
+    colors:{
+      "primary-1":'#4B4643',
+      "primary-2":'#DCDEDD',
+      "primary-3":'#F9F9F9',
+      "primary-4":'#74483F',
+    }, 
     // spacing:{
     //     '7.5' : "7.5%"
     // },

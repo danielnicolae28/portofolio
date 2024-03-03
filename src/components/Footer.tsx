@@ -3,7 +3,7 @@ import { FaLinkedin ,FaGithub,FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='w-full bg-black text-white	text-white'>
+    <div className='w-full bg-primary-1 text-white	text-white'>
 
     
 

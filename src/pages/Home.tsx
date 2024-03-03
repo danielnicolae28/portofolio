@@ -5,7 +5,7 @@ import Presentation from "../components/Presentation"
 const Home = () => {
   return (
     <> 
-    <div className="pt-20  w-full h-full">
+    <div className="bg-primary-2 pt-20  w-full h-full">
 
     
 <Presentation/>

@@ -1,4 +1,4 @@
-export type ExperienceButtonTypes ={
-    children:string,
-    onClick:()=>void
+export type ButtonTypes ={
+    children?:string,
+    onClick?:()=>void
 }

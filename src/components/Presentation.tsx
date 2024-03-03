@@ -5,7 +5,7 @@ const Presentation = () => {
   return (
     <>
     <div className='md:flex'>
-    <div className='bg-red-900 md:w-1/2   h-screen flex flex-col justify-center font-mono '>
+    <div className='bg-primary-2 text-primary-1 md:w-1/2   h-screen flex flex-col justify-center font-mono '>
 
 <h3 className='m-4'>Hi, my name is Ioana Nicolae Daniel</h3>
 <h1 className='flex flex-col m-4 font-bold text-lg'><span>

@@ -1,10 +1,23 @@
 import LinkComponent from "./ui/LinkComponent"
+import Toggle from "./ui/Toggle";
+import { useState } from "react";
 
 
 const NavBar = () => {
-  return (
-    <ul className="w-full border-solid border-b border-gray-300 flex justify-center p-4 fixed bg-gray-50">
 
+  const [toggleHandle,setToggleHandle] = useState<boolean>(true);
+
+
+  const onToggleHandler = ():void=>{
+    setToggleHandle(!toggleHandle);
+  }
+
+  return (
+    <div className="w-full border-b border-primary-1 flex flex-col items-start bg-primary-2" >
+    <Toggle onClick={onToggleHandler}/>
+    {
+toggleHandle &&
+      <ul>
         <LinkComponent to="/">Home</LinkComponent>
         <LinkComponent to="about">About</LinkComponent>
         <LinkComponent to="work">Work</LinkComponent>
@@ -12,6 +25,10 @@ const NavBar = () => {
         <LinkComponent to="contact">Contact</LinkComponent>
 
     </ul>
+    
+    }
+    
+    </div>
   )
 }
 
