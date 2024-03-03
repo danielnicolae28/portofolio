@@ -7,8 +7,8 @@ const ExperienceTab = () => {
     <>
 <div className='flex m-10'>
 
-<div className='border-r mr-3'>
-  <img src="../../public/svg.svg" className='m-3 w-80	 ' alt="" />
+<div className='border-r  mr-3'>
+  <img src="../../public/sigla_continental-removebg-preview.png" className='mr-3 w-80	p-1 border-b' alt="" />
 </div>
 
 <div>
