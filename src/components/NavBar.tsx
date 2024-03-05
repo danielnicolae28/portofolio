@@ -1,5 +1,6 @@
 import LinkComponent from "./ui/LinkComponent"
-import Toggle from "./ui/Toggle";
+import Bars from "./ui/Bars";
+
 import { useState } from "react";
 
 
@@ -13,11 +14,11 @@ const NavBar = () => {
   }
 
   return (
-    <div className="w-full border-b border-primary-1 flex flex-col items-start bg-primary-2" >
-    <Toggle onClick={onToggleHandler}/>
+    <div className="w-full border-b border-primary-1 flex flex-col items-start bg-primary-2">
+    <Bars onClick={onToggleHandler}/>
     {
 toggleHandle &&
-      <ul>
+      <ul className="m-5">
         <LinkComponent to="/">Home</LinkComponent>
         <LinkComponent to="about">About</LinkComponent>
         <LinkComponent to="work">Work</LinkComponent>
