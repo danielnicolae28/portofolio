@@ -2,9 +2,22 @@ import { ButtonTypes } from "../../models/types"
 
 
 
-const Button = ({children,onClick}:ButtonTypes) => {
-  return (
-    <button className="m-4 w-10 h-10 text-primary-4 border-b" onClick={onClick}>{children}</button>
+const Button = ({children,onClick,selected}:ButtonTypes) => {
+
+  let defaultClass:string ="mx-10 p-2 cursor-pointer text-primary-4  text-3xl "
+
+
+
+
+  if(selected === true
+    ){
+defaultClass = defaultClass + "border-b"
+  }
+
+
+  return ( 
+    <button className={`${defaultClass}`} onClick={onClick}>{children}</button>
+   
   )
 }
 

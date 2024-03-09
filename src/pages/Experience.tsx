@@ -7,12 +7,15 @@ import ExperienceTab from "../components/ExperienceTab";
 const Experience = () => {
 const [selected,setSelected] = useState<boolean>(true);
 
-const selectionHandlerSklill = ()=>{
-setSelected(true)
+const selectionHandler = ()=>{
+setSelected(!selected)
 }
-const selectionHandlerExperience = ()=>{
-setSelected(false)
-}
+// const selectionHandlerExperience = ()=>{
+// setSelected(false)
+// }
+
+
+
 
   return (
     <>
@@ -22,8 +25,8 @@ setSelected(false)
       <div className=" flex flex-col items-center justify-start bg-slate-50 md:w-1/2 md:h-1/2 mdabsolute top-1/4 ">
         <div>
 
-    <Button onClick={selectionHandlerSklill}>Skills</Button>
-    <Button onClick={selectionHandlerExperience}>Experience</Button>
+    <Button onClick={selectionHandler} selected={selected}>Skills</Button>
+    <Button onClick={selectionHandler} selected={selected}>Experience</Button>
         </div>
         <div className="my-20">
 {selected ? <Skills/> : <ExperienceTab/>}

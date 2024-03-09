@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const NavBar = () => {
 
-  const [toggleHandle,setToggleHandle] = useState<boolean>(true);
+  const [toggleHandle,setToggleHandle] = useState<boolean>(false);
 
 
   const onToggleHandler = ():void=>{

@@ -6,6 +6,7 @@ export type BarsPropsType ={
 
 export type ButtonTypes ={
     children?:string,
+    selected:boolean,
   
     onClick?:()=>void
 }
