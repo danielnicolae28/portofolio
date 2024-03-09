@@ -25,8 +25,8 @@ setSelected(!selected)
       <div className=" flex flex-col items-center justify-start bg-slate-50 md:w-1/2 md:h-1/2 mdabsolute top-1/4 ">
         <div>
 
-    <Button onClick={selectionHandler} selected={selected}>Skills</Button>
-    <Button onClick={selectionHandler} selected={selected}>Experience</Button>
+    <Button onClick={selectionHandler} selected={selected} types="skills">Skills</Button>
+    <Button onClick={selectionHandler} selected={selected} types="experience">Experience</Button>
         </div>
         <div className="my-20">
 {selected ? <Skills/> : <ExperienceTab/>}
