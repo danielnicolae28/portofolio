@@ -4,9 +4,9 @@ import ContactPage from "../components/ContactPage"
 const Contact = () => {
   return (
     <>
-    <div className="py-20 flex justify-center items-center w-full h-full">
-    <ContactForm/>
+    <div className="py-20 flex flex-col md:flex-row justify-center items-center w-full h-full">
     <ContactPage/>
+    <ContactForm/>
 
    
     </div>    

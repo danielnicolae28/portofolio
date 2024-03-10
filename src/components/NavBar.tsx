@@ -18,7 +18,7 @@ const NavBar = () => {
     <Bars onClick={onToggleHandler}/>
     {
 toggleHandle &&
-      <ul className={`m-5 transition-all ${toggleHandle ? 'transition-all duration-1000 ease-out	': 'transition-all duration-1000	ease-in'}`}>
+      <ul className={`flex flex-col`}>
         <LinkComponent to="/">Home</LinkComponent>
         <LinkComponent to="about">About</LinkComponent>
         <LinkComponent to="work">Work</LinkComponent>
