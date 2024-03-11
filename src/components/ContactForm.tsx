@@ -1,62 +1,43 @@
-import { useReducer } from "react";
+import { ChangeEvent, useState } from "react";
 import Button from "./ui/Button";
 import Input from "./ui/Input";
 
-const initialState :{
-  yourName : string,
-  email:string,
-  description:string
-} ={
-  yourName :"",
-  email: "",
-  description :""
-}
-
-type actionType = {type:"name";payload:string} | {type:"email";payload:string}|{type:"description";payload:string}
-
-function reducer(state : typeof initialState,action : actionType){
- switch (action.type){
-  case "name":{
-    return{
-      ...state,name:state.yourName
-    }
-
-  }
-  case "email":{
-    return {
-      ...state,email:state.email
-    }
-
-  }
-  case "description":{
-    return {
-      ...state,description:state.description
-    }
-  }
- }
-}
 
 const ContactForm = () => {
 
-  const [state,dispatch] = useReducer(reducer,initialState)
-// const [name,setName] = useState<string>('');
-// const [email,setEmail] = useState<string>('');
-// const [description,setDescription] = useState<string>('');
+const [name,setName] = useState<string>('');
+const [email,setEmail] = useState<string>('');
+const [description,setDescription] = useState<string>('');
   
 
+const nameHandler =(e: ChangeEvent<HTMLInputElement>)=>{
+setName(e.target.value);
+}
+
+console.log(name);
+
+const emailHandler=(e:ChangeEvent<HTMLInputElement>)=>{
+setEmail(e.target.value);
+}
+console.log(email)
+const descriptionHandler =(e:ChangeEvent<HTMLTextAreaElement>)=>{
+setDescription(e.target.value);
+}
+
+console.log(description)
 
   return (
     <>
     <form className="flex flex-col md:w-1/2 w-96 justify-center items-center bg-gray-50">
         
-        <Input type="text"  placeholder="ex. Ioana Daniel" labelInfo="Your Name"/>
+        <Input type="text"  placeholder="ex. Ioana Daniel" labelInfo="Your Name" onChange={nameHandler}/>
       
-        <Input type="email" placeholder="ex. example@gmail.com" labelInfo="Your Email"/>
+        <Input type="email" placeholder="ex. example@gmail.com" labelInfo="Your Email" onChange={emailHandler}/>
 
         <label htmlFor="">Description</label> 
-        <textarea className="md:w-1/2 w-96 border  h-96 " />
+        <textarea className="md:w-1/2 w-96 border  h-96 " onChange={descriptionHandler} />
         {/* <input type="textarea" /> */}
-        <Button onClick={()=>{alert('clicked')}}>Submit</Button>
+        <Button onClick={()=>{alert('clicked')}}  types="submitForm">Submit</Button>
 
     </form>
     </>

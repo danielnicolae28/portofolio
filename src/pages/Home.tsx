@@ -1,4 +1,4 @@
-import Footer from "../components/Footer"
+// import Footer from "../components/Footer"
 import Presentation from "../components/Presentation"
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <div className="bg-primary-2 pt-20  w-full h-full flex flex-col">
 
 <Presentation/>
-<Footer/>
+{/* <Footer/> */}
 
  
  </div>

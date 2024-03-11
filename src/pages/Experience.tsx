@@ -33,7 +33,7 @@ setSelected(!selected)
         </div>
       </div>
     </div>    
-  <Footer/>
+  {/* <Footer/> */}
     </>
   )
 }

@@ -7,8 +7,8 @@ const ContactPage = () => {
         <h1 className="text-4xl m-3">Contact:</h1>
 
 
-        <h2 className="flex flex-col text-xl m-3">
-        Email: <span>
+        <h2 className="flex flex-col text-2xl m-3">
+        Email: <span className="m-2 font-medium">
             danielnicolae286@gmail.com
         </span>
         </h2>
