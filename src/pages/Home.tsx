@@ -1,5 +1,5 @@
 // import Footer from "../components/Footer"
-import Presentation from "../components/Presentation"
+import Presentation from "../components/experience/Presentation"
 
 const Home = () => {
   return (

@@ -1,4 +1,4 @@
-import Links from "./ui/Links";
+import Links from "../ui/Links";
 
 const ContactPage = () => {
   return (

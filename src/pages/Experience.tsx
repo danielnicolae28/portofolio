@@ -2,7 +2,7 @@ import { useState } from "react"
 import Footer from "../components/Footer"
 import Button from "../components/ui/Button"
 import Skills from "../components/Skills";
-import ExperienceTab from "../components/ExperienceTab";
+import ExperienceTab from "../components/experience/ExperienceTab";
 
 const Experience = () => {
 const [selected,setSelected] = useState<boolean>(true);
