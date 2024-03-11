@@ -16,7 +16,7 @@ defaultClass = defaultClass + "border-b"
     defaultClass = defaultClass + "border-b"
   }
 if(types === 'submitForm'){
-  defaultClass = defaultClass+ "border m-12 pointer rounded px-6 text-3xl  font-medium w-48 h-14 "
+  defaultClass = defaultClass+ "border m-8 pointer rounded px-6 text-3xl bg-red-500 font-medium"
 }
 
   return ( 

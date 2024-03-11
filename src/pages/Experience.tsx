@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Footer from "../components/Footer"
 import Button from "../components/ui/Button"
-import Skills from "../components/Skills";
+import Skills from "../components/experience/Skills";
 import ExperienceTab from "../components/experience/ExperienceTab";
 
 const Experience = () => {
@@ -21,8 +21,8 @@ setSelected(!selected)
     <>
     
     
-    <div className="py-20 w-full h-screen bg-slate-500  flex justify-center ">
-      <div className=" flex flex-col items-center justify-start bg-slate-50 md:w-1/2 md:h-1/2 mdabsolute top-1/4 ">
+    <div className="py-20 w-full h-screen bg-slate-500  flex justify-center mb-20">
+      <div className=" flex flex-col items-center justify-start bg-slate-50 md:w-1/2 md:h-1/2  ">
         <div>
 
     <Button onClick={selectionHandler} selected={selected} types="skills">Skills</Button>

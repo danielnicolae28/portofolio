@@ -7,15 +7,15 @@ const ExperienceTab = () => {
     <>
 <div className='flex m-10'>
 
-<div className='border-r  mr-3'>
-  <img src="../../public/sigla_continental-removebg-preview.png" className='mr-3 min-w-24	p-1 border-b' alt="" />
+<div className='border-r  mr-1'>
+  <img src="../../public/sigla_continental-removebg-preview.png" className='mr-3 min-w-20	p-1 border-b' alt="" />
 </div>
 
 <div>
 
 <h1 className='m-4 text-3xl font-semibold'>Mes Engineer</h1>
 <p className='m-4 text-lg'>July 2022 - Present</p>
-<p className='m-4 text-3xl'>
+<p className='m-4 text-2xl'>
   I am a MES engineer with focus on debugging, find new solution for the current application we maintain and develop custom procedure on data base and creating reporting tools.
 </p>
 
