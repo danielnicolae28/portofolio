@@ -35,7 +35,7 @@ console.log(description)
         <Input type="email" placeholder="ex. example@gmail.com" labelInfo="Your Email" onChange={emailHandler}/>
 
         <label htmlFor="" className="m-1">Description</label> 
-        <textarea className="md:w-1/2 w-96 border m-1 h-96 outline-none p-2 px-2 mx-2 text-lg" placeholder="How can I help You" onChange={descriptionHandler} />
+        <textarea className="md:w-1/2 w-96 border m-1 h-96 outline-none p-2 px-2 mx-2 text-lg" placeholder="How can I help you?" onChange={descriptionHandler} />
         {/* <input type="textarea" /> */}
         <Button onClick={()=>{alert('clicked')}}  types="submitForm">Submit</Button>
 
